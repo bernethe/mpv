@@ -45,12 +45,12 @@ En el archivo **mpvawards.sql**
 ### Tabla admin
 Tabla de logueo para el módulo *admin*.
 
-| Campo | Tipo | Default | Descripción |
-| --- | --- | --- | --- | --- |
-| aid | int |  | \* |
-| aname | varchar(16) |  | Usuario de acceso al módulo admin |
-| apass | varchar(16) |  | Contraseña de acceso al módulo admin |
-| astatus | int | 1 | Estatus y nivel de acceso al módulo admin |
+Campo | Tipo | Default | Descripción
+--- | --- | --- | --- | ---
+aid | int |  | \*
+aname | varchar(16) |  | Usuario de acceso al módulo admin
+apass | varchar(16) |  | Contraseña de acceso al módulo admin
+astatus | int | 1 | Estatus y nivel de acceso al módulo admin
 
 Precargada con los siguientes datos:
 
