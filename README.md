@@ -46,7 +46,7 @@ En el archivo **mpvawards.sql**
 Tabla de logueo para el módulo *admin*.
 
 Campo | Tipo | Default | Descripción
---- | --- | --- | --- | ---
+--- | --- | --- | ---
 aid | int |  | \*
 aname | varchar(16) |  | Usuario de acceso al módulo admin
 apass | varchar(16) |  | Contraseña de acceso al módulo admin
@@ -62,8 +62,8 @@ Precargada con los siguientes datos:
 ### Tabla binnacle
 Tabla donde se guardarán los votos.
 
-Campo | Tipo | Default | Descripción |
---- | --- | --- | --- | ---
+Campo | Tipo | Default | Descripción
+--- | --- | --- | ---
 bid | int |  | \*
 buser | int |  | \*\* `table: users` Contiene el ID del usuario que emitió el voto
 bcategory | int |  | \*\* `table: categories` Contiene el ID de la categoría en que se votó
@@ -73,8 +73,8 @@ bdate | timestamp | CURRENT_TIMESTAMP | Fecha y hora de emición del voto
 ### Tabla categories
 Tabla de las categorías a votar en la contienda.
 
-Campo | Tipo | Default | Descripción |
---- | --- | --- | --- | ---
+Campo | Tipo | Default | Descripción
+--- | --- | --- | ---
 cid | int |  | \*
 clabel | varchar(255) | | Nombre de la categoría
 cdesc | text |  | Descripción de la categoría
@@ -86,24 +86,24 @@ cstatus | int | 1 | Estatus 1 activo 0 inactivo
 ### Tabla department
 Tabla de los departamentos y/o empresas a participar.
 
-Campo | Tipo | Default | Descripción |
---- | --- | --- | --- | ---
+Campo | Tipo | Default | Descripción
+--- | --- | --- | ---
 did | int |  | \*
 dlabel | varchar(32) |  | Nombre de la empresa y/o departamento
 
 ### Tabla sex
 Tabla de los sexos.
 
-Campo | Tipo | Default | Descripción |
---- | --- | --- | --- | ---
+Campo | Tipo | Default | Descripción
+--- | --- | --- | ---
 sid | int |  | \*
 slabel | varchar(50) |  | Nombre del sexo
 
 ### Tabla users
 Tabla de los usuarios a participar tanto como votantes como contendientes.
 
-Campo | Tipo | Default | Descripción |
---- | --- | --- | --- | ---
+Campo | Tipo | Default | Descripción
+--- | --- | --- | ---
 uid | int |  | \*
 uname | varchar(50) | | Usuario de acceso
 upass | varchar(50) | | Contraseña de acceso
